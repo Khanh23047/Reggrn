@@ -8,7 +8,7 @@ import random
 import time
 import re
 
-print("Made By REVIEWTOOL247NDK")
+print("Made By MikaTeam")
 print(">>> Nếu Nhiều Tài Khoản Garena Mà FAILED Nhiều Quá Thì Bạn Hãy FAKE IP Do Garena Đã Chặn Bạn Rồi")
 def lay_mail_ao():
     response = requests.get('https://www.1secmail.com/api/v1/?action=genRandomMailbox&count=10')
@@ -18,7 +18,7 @@ def lay_mail_ao():
     return None
 
 def random_ten():
-    return "REVIEWTOOL247" + ''.join(random.choices('abcdefghijklmnopqrstuvwxyz0123456789', k=5))
+    return "MikaMika" + ''.join(random.choices('abcdefghijklmnopqrstuvwxyz0123456789', k=5))
 
 
 
@@ -163,13 +163,13 @@ def register():
             
             response = requests.post('https://sso.garena.com/api/register', cookies=cookies, headers=headers, data=data)
             if response.status_code == 200:
-                print(f"{username} | {email} | NDK247@ | SUCCESS ")
+                print(f"{username} | {email} | Yuri8911@ | SUCCESS ")
             else:
-                print(f"{username} | {email} | NDK247@ | FAILED ")
+                print(f"{username} | {email} | Yuri8911@ | FAILED ")
         else:
-            print(f"{username} | {email} | NDK247@ | FAILED ")
+            print(f"{username} | {email} | Yuri8911@ | FAILED ")
     else:
-        print(f"{username} | {email} | NDK247@ | FAILED ")
+        print(f"{username} | {email} | Yuri8911@ | FAILED ")
         
         
         
